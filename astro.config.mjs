@@ -7,6 +7,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://astro-blog-cip.netlify.app",
-  integrations: [icon(), sitemap(), react(), tailwind()]
+    site: "http://astro-dir-training-1.netlify.app",
+    integrations: [icon(), sitemap(), react(), tailwind()]
 });
