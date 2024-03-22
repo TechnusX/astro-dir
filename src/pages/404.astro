@@ -1,0 +1,29 @@
+---
+// component imports
+import MainLayout from "../layouts/MainLayout.astro";
+import Link from "../components/Link.astro";
+
+---
+
+<MainLayout title="Page not found">
+  <section
+    class="container"
+    aria-label="Page not found"
+    style={{
+      display: "grid",
+      placeItems: "center",
+      textAlign: "center",
+      gap: "var(--space-sm)",
+    }}
+  >
+    <div>
+      <h1 class="h1">no</h1>
+    </div>
+    <Link
+      href=""
+      style="secondary"
+      text="Go Home"
+      icon={{ name: "mdi:home", side: "right" }}
+    />
+  </section>
+</MainLayout>
